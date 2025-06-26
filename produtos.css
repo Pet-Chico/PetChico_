@@ -799,12 +799,15 @@ body {
     }
     
     .header-container {
-        padding: 10px;
+        padding: 12px 15px;
     }
     
-    .logo-img {
-        height: 60px;
-        max-width: 100px;
+    .logo-text h1 {
+        font-size: 24px;
+    }
+    
+    .logo-icon {
+        font-size: 28px;
     }
     
     .hero {
