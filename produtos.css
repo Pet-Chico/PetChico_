@@ -698,6 +698,13 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .header-container {
+        grid-template-columns: auto 1fr auto;
+        gap: 15px;
+    }}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .header-container {
         padding: 15px 20px;
     }
     
