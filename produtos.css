@@ -700,7 +700,20 @@ body {
     .header-container {
         grid-template-columns: auto 1fr auto;
         gap: 15px;
-    }}
+    }
+    
+    .contact-section {
+        display: none;
+    }
+    
+    .nav-list {
+        gap: 20px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
 
 /* Responsive Design */
 @media (max-width: 1024px) {
