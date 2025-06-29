@@ -657,20 +657,12 @@ body {
 }
 
 .contact-button {
-    background: #10b981;
-    color: white;
+    color: #fbbf24;
     padding: 12px 24px;
-    border-radius: 25px;
     text-decoration: none;
     font-weight: 600;
-    display: inline-block;
-    transition: all 0.3s;
 }
 
-.contact-button:hover {
-    background: #059669;
-    transform: translateY(-2px);
-}
 
 .contact-info {
     color: #fbbf24;
@@ -824,7 +816,13 @@ body {
     .nav-menu2 {
         gap: 25px;
     }
+    .menu-toggle {
+        display: block;
+    }
     
+    .menu-toggle {
+        display: flex;
+    }
     .nav-link2 {
         font-size: 16px;
     }
